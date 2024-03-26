@@ -1,9 +1,23 @@
 {
   "name": "cra-template-ts-router",
   "version": "0.1.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "Create react app template with typescript and react router dom",
   "repository": {
     "type": "git",
     "url": "https://github.com/jclind/cra-template-ts-router.git",
     "directory": "/"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "dependencies": {
+    "react-router-dom": "^6.22.3"
   }
 }
