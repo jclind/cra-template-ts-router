@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import ExampleLogo from '../../assets/images/example-logo.png'
 import './Navbar.scss'
 
@@ -8,9 +8,11 @@ const Navbar = () => {
     <nav className='site-nav'>
       <div className='nav-center'>
         <div className='nav-header'>
-          <div className='logo-container'>
-            <img src={ExampleLogo} alt='' />
-          </div>
+          <Link to='/'>
+            <div className='logo-container'>
+              <img src={ExampleLogo} alt='' />
+            </div>
+          </Link>
         </div>
         <div className='nav-content'>
           <div className='nav-links'>
